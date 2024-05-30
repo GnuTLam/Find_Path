@@ -174,7 +174,6 @@ double dijkstra(vector< vector< double > > &graphDistance, vector<vector< int> >
 
     //While there a still points we haven't visited we run
     while(!pq.empty()){
-
         //Get the top point
         tuple<double,int,int> t = pq.top();
 
